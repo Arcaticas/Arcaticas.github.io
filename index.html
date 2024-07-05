@@ -1,13 +1,44 @@
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="./css/custom.css" rel="stylesheet">
+  </head>
 
-<ul class="nav nav-pills nav-fill gap-2 p-1 small bg-primary rounded-5 shadow-sm" id="pillNav2" role="tablist" style="--bs-nav-link-color: var(--bs-white); --bs-nav-pills-link-active-color: var(--bs-primary); --bs-nav-pills-link-active-bg: var(--bs-white);">
-    <li class="nav-item" role="presentation">
-      <button class="nav-link active rounded-5" id="home-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="true">Home</button>
-    </li>
-    <li class="nav-item" role="presentation">
-      <button class="nav-link rounded-5" id="profile-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false">Profile</button>
-    </li>
-    <li class="nav-item" role="presentation">
-      <button class="nav-link rounded-5" id="contact-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false">Contact</button>
-    </li>
-  </ul>
+
+
+  <body>
+    <nav class="navbar fixed-top bg-success text-black">
+      <div class="">
+        <h1 class="navbar-brand p-3">Arcaticas Games</h1>
+      </div>
+      <div class="p-3">
+        <button class="btn btn-dark">About Me</button>
+        <button class="btn btn-dark">The Archon Project</button>
+        <button class="btn btn-dark">Sword of Atlas</button>
+        <button class="btn btn-dark">Delta Force: Hawk Ops</button>
+        <button class="btn btn-dark">New World</button>
+      </div>
+    </nav>
+
+    <div class="w-100 p-3"></div>
+
+    <div class="vw-100 vh-100 bg-black mt-5">
+      <div>
+        <h1 class="text-center text-white p-3 mt-5"> Hi there! Thanks for stopping by!</h1>
+      <div class="text-center">
+        <img src=".\assets\me2.webp" class="rounded mx-auto d-block" style="height: 600px">
+      </div>
+      <p class="text-center text-white">
+        My name is Theo Grant and I am a game engineer.
+        My focus of work primarly centers around Game AI and Engine programming. I've worked on a varitey of software projects from games to medical tools.
+      </p>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
